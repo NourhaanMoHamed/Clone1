@@ -1,0 +1,146 @@
+@import url('https://fonts.google.com/specimen/Karla');
+body{
+    font-family:'Karla' serif;
+    
+    background-color: #e6eff6;
+}
+.head2{
+    color:#2bb3b1;
+    padding-top: 15px;
+    margin-bottom: 4%;
+    font-weight:660;
+}
+.greenpara{
+  color:#bcdd3e;
+  font-size: 18px;
+  font-weight: bold;
+}
+.silver{
+    color:silver;
+    font-size: 15px;
+    font-weight:500;
+}
+.div1{
+    padding-left:5% ;
+    padding-top:4%;
+}
+.dark{
+    background-color: #2bb3b1;
+    
+}
+.lighter{
+    background-color:#4abebd ;
+}
+.row2{
+  height:35vh;  
+  color:#fff;
+  
+}
+.Head1{
+    display: inline;
+    margin-top: 2%;
+    margin-left:8%;
+    margin-right: 3%;
+}
+.para1{
+    display: inline;
+    font-weight:10;
+    opacity: 0.8;
+    margin-top: 2%;
+}
+.para2{
+ font-weight: 400;
+ margin-top: 1%;
+ margin-left:8%;
+ opacity: 0.9;
+}
+.head{
+  margin-top: 10%;
+  margin-left: 7%;
+  margin-bottom:6%;
+}
+.row1{
+    height: 35vh;
+}
+.btn{
+    margin-top: 2%;
+    width:80%;
+    height: 7vh;
+    background-color: #bcdd3e;
+    /* box-shadow: 1px 1px 1px 1px rgb(129, 129, 129); */
+    font-weight: bold;
+    color: #fff;
+    margin-left:8%;
+}
+
+ul{
+    list-style: none;
+}
+.head5{
+    margin-top: 10%;
+    margin-left:8%;
+    margin-bottom: 4%;
+}
+li{
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 700px)  
+/*mobile*/
+{
+    
+    main{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 18%;
+        height: 100vh;
+        
+    }
+    .div1{
+        margin-left: 3%;
+    }
+    .paradiv{
+        width: 100%;
+    }
+    .silver{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .dark{
+        height: 30vh;
+    }
+    
+}
+
+@media screen and (min-device-width:768px)/*Desktop*/
+{
+    .container{ 
+    height:70vh;
+        width:55%;
+        margin-top: 10%;
+        box-shadow:2px 2px 2px 2px #dce4eb;
+    }
+    .row1{
+        height: 27vh;
+        margin-bottom:5% ;
+    }
+    .row2{
+        height: 38vh;
+        
+    }
+    .row2{
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius:5px ;
+    }
+    .paradiv{
+        width: 70%;
+    }
+}
+
+
+.container{
+    background-color: #fff;
+   
+    border-radius: 7px;
+}
